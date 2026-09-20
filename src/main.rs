@@ -169,6 +169,8 @@ fn run_game (screen: &mut io::Stdout, x: u16, y: u16, questions: &[Question]) ->
                     // a wrong answer currently does nothing except not count, change what happens here if you want a penalty
                     if correct {
                         questions_correct += 1;
+                    } else {
+                        snake.pop_back(); // wrong answer, take the extra tail segment back off
                     }
                 }
                 None => return Ok(()), // player pressed q during the question

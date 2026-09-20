@@ -20,7 +20,7 @@ cargo run
 
 To import questions from a study guide pdf a professor or teacher assigned do the following:
 
-1. Go to your favorite LLM website and import the study guide pdf file or just paste the whole text
+1. Go to your favorite LLM website and import the study guide pdf file or just paste the whole text (your class notes and professor slides would also probably work!)
 2. paste this exact prompt:
 ```
 I'm making a multiple-choice quiz from the attached study guide (a PDF or pasted text). Read all of it, then write around 20 questions that test its most important facts and concepts.
@@ -51,4 +51,14 @@ Rules:
 7. The JSON must be strictly valid: double quotes only, no trailing commas, no comments, and any quote marks inside a string escaped as \".
 8. Use only information from the study guide. If the file is unreadable or empty, say so instead of inventing questions.
 ```
-3. paste the LLMs response into the `questions.json` file inside the project directory
+3. Paste the LLMs response into the `questions.json` file inside the project directory and save the file.
+4. Now the questions are loaded in and you can run `cargo run` to start playing (you may want to delete questions that you continue to get correctso you can study the ones you struggle with more).
+
+## Project Photos
+
+**Snake Game**
+
+!["snake game png"](./assets/game.png)
+
+**Question Menu**
+!["study question"](./assets/question.png)

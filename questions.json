@@ -1,22 +1,202 @@
 [
   {
-    "prompt": "Which keyword makes a variable changeable in Rust?",
-    "answers": ["var", "mut", "let", "change"],
-    "answer_index": 1
-  },
-  {
-    "prompt": "What does the ? operator do when a function returns an Err?",
+    "prompt": "What is the major structural difference between prokaryotic and eukaryotic cells?",
     "answers": [
-      "Crashes the program",
-      "Ignores the error",
-      "Returns the error from the current function",
-      "Prints the error and keeps going"
+      "Prokaryotes lack ribosomes",
+      "Eukaryotes lack a cell membrane",
+      "Eukaryotes have a membrane-bound nucleus; prokaryotes do not",
+      "Prokaryotes are always multicellular"
     ],
     "answer_index": 2
   },
   {
-    "prompt": "Which tool downloads dependencies and builds a Rust project?",
-    "answers": ["rustc", "cargo", "rustup", "crates"],
+    "prompt": "What is the central dogma of molecular biology?",
+    "answers": [
+      "DNA → RNA → protein",
+      "Protein → RNA → DNA",
+      "RNA → DNA → protein",
+      "DNA → protein → RNA"
+    ],
+    "answer_index": 0
+  },
+  {
+    "prompt": "In the scientific method, what is a testable, proposed explanation for an observation called?",
+    "answers": [
+      "Theory",
+      "Conclusion",
+      "Observation",
+      "Hypothesis"
+    ],
+    "answer_index": 3
+  },
+  {
+    "prompt": "Which subatomic particles are located in the nucleus of an atom?",
+    "answers": [
+      "Protons and electrons",
+      "Protons and neutrons",
+      "Neutrons and electrons",
+      "Electrons only"
+    ],
     "answer_index": 1
+  },
+  {
+    "prompt": "What is an atomic orbital?",
+    "answers": [
+      "The total energy level that surrounds the nucleus",
+      "A fixed circular path that an electron follows",
+      "The region of the nucleus that holds protons",
+      "The region where an electron is most likely to be found"
+    ],
+    "answer_index": 3
+  },
+  {
+    "prompt": "An atom becomes a positively charged ion when it does what?",
+    "answers": [
+      "Gains electrons",
+      "Loses electrons",
+      "Gains protons",
+      "Loses neutrons"
+    ],
+    "answer_index": 1
+  },
+  {
+    "prompt": "Which type of bond forms when electrons are transferred from one atom to another?",
+    "answers": [
+      "Ionic bond",
+      "Polar covalent bond",
+      "Hydrogen bond",
+      "Van der Waals interaction"
+    ],
+    "answer_index": 0
+  },
+  {
+    "prompt": "Which type of bond holds hydrogen and oxygen together within a single water molecule?",
+    "answers": [
+      "Hydrogen bond",
+      "Ionic bond",
+      "Polar covalent bond",
+      "Van der Waals force"
+    ],
+    "answer_index": 2
+  },
+  {
+    "prompt": "What causes water molecules to stick to one another, giving water its high cohesion?",
+    "answers": [
+      "Ionic bonds between hydrogen and oxygen",
+      "Hydrogen bonds between neighboring molecules",
+      "Covalent bonds between neighboring molecules",
+      "Peptide bonds between molecules"
+    ],
+    "answer_index": 1
+  },
+  {
+    "prompt": "In a saltwater solution, what role does the water play?",
+    "answers": [
+      "Solute",
+      "Solution",
+      "Buffer",
+      "Solvent"
+    ],
+    "answer_index": 3
+  },
+  {
+    "prompt": "What does an acid do when dissolved in water?",
+    "answers": [
+      "Increases the H+ concentration of the solution",
+      "Decreases the H+ concentration of the solution",
+      "Raises the pH above 7",
+      "Increases the OH- concentration of the solution"
+    ],
+    "answer_index": 0
+  },
+  {
+    "prompt": "Why is carbon well suited to be the backbone of the molecules of life?",
+    "answers": [
+      "It has only two valence electrons",
+      "It is the most abundant element in cells",
+      "It can form four covalent bonds with many different atoms",
+      "It forms only ionic bonds"
+    ],
+    "answer_index": 2
+  },
+  {
+    "prompt": "What defines an organic molecule?",
+    "answers": [
+      "Any molecule found inside a living organism",
+      "Any molecule that contains oxygen",
+      "Any molecule that dissolves in water",
+      "A molecule that contains carbon covalently bonded to hydrogen"
+    ],
+    "answer_index": 3
+  },
+  {
+    "prompt": "What is an isomer?",
+    "answers": [
+      "A molecule with the same formula as another but a different structure",
+      "A molecule with the same structure as another but a different formula",
+      "An atom with a different number of neutrons",
+      "An ion with a different charge"
+    ],
+    "answer_index": 0
+  },
+  {
+    "prompt": "What is the monomer subunit of a protein?",
+    "answers": [
+      "Monosaccharide",
+      "Amino acid",
+      "Nucleotide",
+      "Fatty acid"
+    ],
+    "answer_index": 1
+  },
+  {
+    "prompt": "Which type of bond joins amino acids together in a protein?",
+    "answers": [
+      "Glycosidic linkage",
+      "Phosphodiester linkage",
+      "Peptide bond",
+      "Ester linkage"
+    ],
+    "answer_index": 2
+  },
+  {
+    "prompt": "Which nitrogenous bases are purines?",
+    "answers": [
+      "Adenine and guanine",
+      "Cytosine and thymine",
+      "Thymine and uracil",
+      "Adenine and cytosine"
+    ],
+    "answer_index": 0
+  },
+  {
+    "prompt": "In DNA, which base pairs with cytosine?",
+    "answers": [
+      "Adenine",
+      "Thymine",
+      "Uracil",
+      "Guanine"
+    ],
+    "answer_index": 3
+  },
+  {
+    "prompt": "What distinguishes an unsaturated fatty acid from a saturated fatty acid?",
+    "answers": [
+      "It contains no hydrogen atoms",
+      "It contains one or more C=C double bonds in its chain",
+      "It contains fewer carbon atoms in total",
+      "It contains a phosphate group"
+    ],
+    "answer_index": 1
+  },
+  {
+    "prompt": "What did the Miller-Urey experiment demonstrate?",
+    "answers": [
+      "Cells arise only from pre-existing cells",
+      "DNA is the genetic material",
+      "Organic molecules can form from simple gases under early Earth conditions",
+      "Water is the universal solvent"
+    ],
+    "answer_index": 2
   }
 ]
