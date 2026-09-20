@@ -23,7 +23,7 @@ To import questions from a study guide pdf a professor or teacher assigned do th
 1. Go to your favorite LLM website and import the study guide pdf file or just paste the whole text (your class notes and professor slides would also probably work!)
 2. paste this exact prompt:
 ```
-I'm making a multiple-choice quiz from the attached study guide (a PDF or pasted text). Read all of it, then write around 20 questions that test its most important facts and concepts.
+I'm making a multiple-choice quiz from the attached study guide (a PDF or pasted text). Read all of it, then write around 10-50 questions that test its most important facts and concepts.
 
 Reply with ONLY one code block containing valid JSON. No text before or after it, and no explanations. The JSON must be an array of objects, each with exactly these fields:
 
