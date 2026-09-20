@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "Which keyword makes a variable changeable in Rust?",
+    "answers": ["var", "mut", "let", "change"],
+    "answer_index": 1
+  },
+  {
+    "prompt": "What does the ? operator do when a function returns an Err?",
+    "answers": [
+      "Crashes the program",
+      "Ignores the error",
+      "Returns the error from the current function",
+      "Prints the error and keeps going"
+    ],
+    "answer_index": 2
+  },
+  {
+    "prompt": "Which tool downloads dependencies and builds a Rust project?",
+    "answers": ["rustc", "cargo", "rustup", "crates"],
+    "answer_index": 1
+  }
+]
